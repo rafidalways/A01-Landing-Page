@@ -103,6 +103,12 @@ body {
   border-radius: 24px;
   gap: 0;
   padding-bottom: 30px;
+  box-shadow: 5px 5px 5px #696886;
+  transition: 0.3s ease;
+}
+
+.user-stats:hover {
+  box-shadow: -5px -5px 5px #555472;
 }
 
 .stats-heading {
@@ -157,9 +163,13 @@ body {
 .testimonials-card {
   box-shadow: 3px 5px 5px #66666888;
   border-radius: 14px;
-  background-color: #c4c2f36b;
+  background-color: #dcdbf36b;
   padding: 20px;
   transition: 0.8s ease;
+}
+
+.testimonials-card p {
+  font-weight: 400;
 }
 
 .testimonials-card:hover {
